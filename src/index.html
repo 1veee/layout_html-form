@@ -11,7 +11,159 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
+    <form action="/" method="post">
+      <fieldset class="fielset fielset-01">
+        <legend>Personal information</legend> 
+        <div>
+          Surname:
+          <input 
+            type="text"
+            name="surname"
+            class="int"
+          >
+        </div>
+        <div>
+          Name:
+          <input 
+            type="text"
+            name="Name"
+            class="name int"
+          >
+        </div>
+        <div>
+          How old are You?
+          <input 
+            type="number"
+            name="Age"
+            class="age int"
+            min="1"
+            max="100"
+            value="12"
+          >
+        </div>
+        <div>
+          Full date of birth:
+          <input 
+            type="date"
+            name="Date"
+            class="date"
+          >
+        </div>
+        <div class="div-check"> 
+          I accept the term of the agreement
+          <input 
+            type="checkbox"
+            name="Check"
+            class="check int"
+          >
+        </div>
+      </fieldset>
+      <fieldset class="fielset fielset-02">
+        <legend>Registration</legend>
+        <div>
+          E-mail:
+          <input 
+            type="email"
+            name="E-mail"
+            class="e-mail int"
+            placeholder="email@example.com"
+          >
+        </div>
+        <div>
+          Password:
+          <input 
+            type="password"
+            name="Password"
+            class="password int"
+          >
+        </div>
+      </fieldset>
+      <fieldset class=" fielset-03">
+        <legend>An interesting fact about you!</legend>
+        <div>
+          Do you love cats?
+          <input 
+            type="radio"
+            name="Animal"
+            class="animal int"
+          >
+          Yes
+          <input 
+            type="radio"
+            name="Animal"
+            class="animal int"
+          >
+          No
+        </div>
+        <div>
+          What is your favorite color?
+          <input 
+            type="color"
+            name="Color"
+            class="color int"
+          >
+        </div>
+        <div>
+          What time do you go to bed?
+          <input 
+            type="date"
+            name="Date"
+            class="dates int"
+          >
+        </div>
+        <div>
+          What are your favorite brand of cars?
+          <select 
+            name="Cars"
+            multiple
+            class="cars int"
+          >
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
+          </select>
+        </div>
+        <div>
+          How do you rate our work?
+          <input 
+            type="range"
+            name="Rate"
+            class="rate int"
+            value="0"
+          >
+        </div>
+      </fieldset>
+      <fieldset class=" fielset-04">
+        <legend>Additional info:</legend>
+        <div>
+          Comments:
+          <textarea 
+            name="Text-area" 
+            class="text-area int" 
+            cols="20" 
+            rows="2"
+          >
+          </textarea>
+        </div>
+        <div>
+          Would you recommend us?
+          <select 
+            name="Yes-no"
+            class="yes-no int"
+          >
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+          </select>
+        </div>
+      </fieldset>
+      <button
+        class="btn-submit int"
+        name="Submit"
+        type="submit"
+      >
+      Submit
+      </button>
+    </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>

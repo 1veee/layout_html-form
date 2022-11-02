@@ -1,1 +1,68 @@
-/* styles go here */
+.name {
+  margin: 10px 0 0;
+}
+  
+.age {
+  margin: 10px 0 0;
+}
+  
+.date {
+  margin: 10px 0 0;
+}
+  
+.div-check {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 -3px;
+}
+  
+.check {
+  margin-bottom: 7px;
+  margin-left: 8px;
+}
+  
+.fielset-02 {
+  margin: 20px 0 0;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+  
+.password {
+  margin: 10px 0 0;
+}
+  
+.fielset-03 {
+  margin: 20px 0 0;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+  
+.color {
+  margin: 10px 0 0;
+}
+  
+.dates {
+  margin: 10px 0 0;
+}
+  
+.cars {
+  margin: 10px 0 0;
+}
+  
+.rate {
+  margin: 12px 0 0;
+}
+  
+.fielset-04 {
+  margin: 20px 0 0;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+  
+.yes-no {
+  margin: 10px 0 0;
+}
+  
+.btn-submit {
+  margin: 20px 0 0;
+}
